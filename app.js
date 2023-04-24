@@ -48,6 +48,7 @@ var createNewTaskElement=function(taskString) {
     deleteButton.className="delete";
     deleteButton.id="butt";
     deleteButtonImg.src="./remove.svg";
+    deleteButtonImg.alt="remove-button";
     deleteButton.appendChild(deleteButtonImg);
 
 
@@ -64,7 +65,7 @@ var createNewTaskElement=function(taskString) {
 
 
 var addTask=function() {
-    
+
     console.log("Add Task...");
     //Create a new list item with the text from the #new-task:
     if (!taskInput.value) return;
