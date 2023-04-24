@@ -51,12 +51,12 @@
 
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,
 button{
-  outline:none;
+  outline: none;
 }
 
 #butt {
@@ -160,14 +160,14 @@ label[for="new-task"] {
 
 /* Edit Task */
 .task-list input[type=text] {
-  display:none
+  display: none
 }
 
 .edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editMode label {
-  display:none;
+  display: none;
 }
